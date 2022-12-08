@@ -1,0 +1,136 @@
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+nav ul li {
+    padding: 10px;
+    margin: 10px;
+    width: -webkit-fill-available;
+}
+
+body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+.netball-images img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.follow-us img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    /* background: aqua; */
+}
+
+.contact-us article {
+    padding: 10px;
+    margin: 10px;
+    color: aliceblue;
+    background: midnightblue;
+}
+
+.extra-details {
+    width: 2000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+}
+
+.follow-us {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: purple;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 2.5em;
+    line-height: 100px;
+    margin: 0;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(255, 0, 179);
+    font-style: italic;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+span {
+    font-size: 0.5em;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.intro {
+    justify-content: center;
+    text-align: center;
+}
+
+.netball-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* adding a 'break point' this means it will only apply when the width is below the max */
+/* @media screen and (max-width:600px) {
+    .sisterimage {
+        border: 10px solid red
+    } */
+
+p {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f393a6;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
